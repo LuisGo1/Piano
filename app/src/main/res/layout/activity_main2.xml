@@ -12,44 +12,57 @@
         android:id="@+id/imageButtonviolin"
         android:layout_width="105dp"
         android:layout_height="match_parent"
-        android:src="@drawable/violin" />
+        android:src="@drawable/violin"
+        android:onClick="sonidoviolin"
+        />
 
     <ImageButton
         android:id="@+id/imageButtontambor"
         android:layout_width="105dp"
         android:layout_height="match_parent"
-        android:src="@drawable/tambor" />
+        android:src="@drawable/tambor"
+        android:onClick="sonidotambor"
+        />
 
     <ImageButton
         android:id="@+id/imageButtontrompe"
         android:layout_width="107dp"
         android:layout_height="match_parent"
-        android:src="@drawable/trompe" />
+        android:src="@drawable/trompe"
+        android:onClick="sonidotrompe"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonsaxo"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:src="@drawable/saxo" />
+        android:src="@drawable/saxo"
+        android:onClick="sonidosaxo"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonpiano"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:src="@drawable/piano" />
+        android:src="@drawable/piano"
+        android:onClick="sonidopiano"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonconga"
         android:layout_width="96dp"
         android:layout_height="match_parent"
-        android:src="@drawable/conga" />
+        android:src="@drawable/conga"
+        android:onClick="sonidoconga"
+        />
 
     <ImageButton
         android:id="@+id/imageButtonguitar"
         android:layout_width="121dp"
         android:layout_height="match_parent"
-        android:src="@drawable/guitar" />
+        android:src="@drawable/guitar"
+        android:onClick="sonidoguitar"
+        />
 
-    <!-- Agrega más botones de imagen para otros animales aquí -->
 
 </LinearLayout>
