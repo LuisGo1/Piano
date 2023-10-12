@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonviolin"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/violin" />
+
+    <ImageButton
+        android:id="@+id/imageButtontambor"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/tambor" />
+
+    <ImageButton
+        android:id="@+id/imageButtontrompe"
+        android:layout_width="107dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/trompe" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsaxo"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/saxo" />
+
+    <ImageButton
+        android:id="@+id/imageButtonpiano"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/piano" />
+
+    <ImageButton
+        android:id="@+id/imageButtonconga"
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/conga" />
+
+    <ImageButton
+        android:id="@+id/imageButtonguitar"
+        android:layout_width="121dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/guitar" />
+
+    <!-- Agrega más botones de imagen para otros animales aquí -->
+
+</LinearLayout>

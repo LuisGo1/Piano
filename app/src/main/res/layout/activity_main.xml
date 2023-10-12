@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtoncat"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/gato"
+        android:onClick="sonidogato"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtonmono"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/mono1"
+        android:onClick="sonidomono"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtongallo"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/gallo"
+        android:onClick="sonidogallo"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtoncerdo"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/cerdo"
+        android:onClick="sonidocerdo"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtonvaca"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/vaca"
+        android:onClick="sonidovaca"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButtondog"
+        android:layout_width="105dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/dog"
+        android:onClick="sonidodog"
+        />
+    <ImageButton
+        android:id="@+id/imageButtonpajaro"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/pajaro"
+        android:onClick="sonidopajaro"
+        />
+
+    <!-- Agrega más botones de imagen para otros animales aquí -->
+
+</LinearLayout>
